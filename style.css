@@ -1,0 +1,60 @@
+body{
+  image-rendering: optimizeQuality;
+  background-image: url(assets/wallp.jpg);
+  background-repeat: no-repeat;
+  background-position: center 0px;
+  background-size: auto;
+}
+
+*{ margin: 0; padding: 0;}
+
+.main{
+  width: 100%; max-width: 70%;
+  margin: 0 auto;
+padding-top: 70px;
+}
+
+.menu{
+  background-color: #111111;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.user{
+  display: flex; float: left;
+  align-items: center;
+  margin-right: 10px; margin-left: 10px;
+
+}
+
+.avatar{ height: 50; margin-right: 20px;
+}
+
+#name{
+  margin-bottom: 15px;
+  font-size: 23px;
+  font-weight:bolder;
+  color: #f4f4f4;
+  margin: auto;
+}
+
+.stuff{
+  padding: 5px 30px;
+  font-size: 13px;
+  font-weight: 400; border-radius: 5px;
+  color: #1f1f1f; background-color: #f4f4f4;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#dono{padding: 5px 5px; border-color: hsl(345, 69%, 63%);
+  background-color: hsl(345, 100%, 69%);
+}
+
+.stuff:hover{background-color: #d3d3d3;
+}
+
+#dono:hover{background-color: rgb(255, 20, 110);
+}
